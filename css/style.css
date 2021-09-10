@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Copse&family=Pacifico&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    background-color: black;
+    color: white;    
+}
+
+/* Navbar */
+
+header{
+    position: fixed;
+    width: 100%;
+    font-family: 'Pacifico', cursive;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(30, 30, 30);
+}
+
+nav h1 a{
+    color: white;
+    text-decoration: none;
+}
+
+nav h1 a:hover{
+    color: green;
+    transition: 200ms ease-out;
+    font-size: 25px;
+}
+
+.navbar a{
+    padding: 0 5px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: green;
+    font-size: 20px;
+    transition: 200ms ease-out;
+}
+
+/* Navbar */
+
+/* Banner */
+
+.banner{
+    width: 100%;
+    margin-top: 66px;
+}
+
+/* Banner */
+
+/* Container */
+
+section img{
+    border-radius: 15px;
+}
+
+.container{
+    margin: 10px 0;
+    font-family: 'Copse', serif;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(10, 10, 0);
+    width: 100%;
+    border-radius: 15px;
+}
+
+.container h1{
+    font-family: 'Pacifico', cursive;
+    color:green;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container div{
+    width: 50%;
+    padding: 10px;
+}
+
+.container div p{
+    padding: 3px;
+}
+
+table{
+    margin: auto;
+}
+
+table tr td{
+    padding: 10px;
+}
+
+.center{
+    text-align: center;
+    font-family: 'Copse', serif;
+    margin-bottom: 10px;
+    background-color: rgb(10, 10, 0);
+    padding: 10px;
+}
+
+.center h1{
+    font-family: 'Pacifico', cursive;
+    color:green;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Container */
+
+/* Footer */
+
+footer{
+    padding: 10px;
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+/* Footer */
