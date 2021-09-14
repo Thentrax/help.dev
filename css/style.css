@@ -11,6 +11,10 @@ body{
     color: white;    
 }
 
+a{
+    text-decoration: none;
+}
+
 /* Navbar */
 
 header{
@@ -75,6 +79,7 @@ nav h1 a:hover{
     justify-content: space-between;
     background-color: rgb(10, 10, 0);
     width: 100%;
+    
 }
 
 .container h1{
@@ -93,12 +98,12 @@ nav h1 a:hover{
     padding: 3px;
 }
 
-table{
-    margin: auto;
+.container a{
+    color:white;
 }
-
-table tr td{
-    padding: 10px;
+.icone{
+    width: 100px;
+    margin: 0px 10px;
 }
 
 .center{
@@ -121,6 +126,35 @@ table tr td{
 }
 
 /* Container */
+
+/* Tabela */
+
+table{
+    margin: auto;
+}
+
+table tr td{
+    padding: 10px;
+}
+
+/* Tabela */
+
+/* Content */
+
+.content{
+    display: flex;
+    align-items: center;
+    margin: 0px 30px;
+}
+
+/* Content */
+
+/* Text */
+
+.text{
+    text-align: center;
+}
+/* Text */
 
 /* Footer */
 
@@ -187,6 +221,14 @@ footer{
     transition: 200ms ease-in-out;
 }
 
-/* Formulário Cadastro e Login */
+.cadastro textarea{
+    width: 50%;
+    height: 150px;
+    background-color: black;
+    color:white;
+    border: green solid 3px;
+    padding: 5px;
+    resize: vertical;
+}
 
-/*
+/* Formulário Cadastro e Login */
